@@ -1,0 +1,10 @@
+{
+  "name": "4.4",
+  "version": "1.0.0",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}

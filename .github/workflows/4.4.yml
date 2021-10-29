@@ -1,0 +1,15 @@
+name: Compile with 4.4
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Compile with 4.4
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: cd ./4.4 && npm ci && npm run tsc
